@@ -1,0 +1,14 @@
+[package]
+name = "ex05"
+version = "0.1.0"
+edition = "2021"
+authors = ["rybarska"]
+description = "my answer to the fifth exercise of the first module of 42's Rust Piscine"
+default-run = "module00-ex05"
+publish = false
+
+[[bin]]
+name = "module00-ex05"
+path = "src/main.rs"
+
+[dependencies]
